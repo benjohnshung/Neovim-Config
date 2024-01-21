@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/benjohn/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
     url = "https://github.com/nvimtools/none-ls.nvim"
   },
+  nvim = {
+    loaded = true,
+    path = "/home/benjohn/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/benjohn/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -215,11 +220,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/benjohn/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/home/benjohn/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,

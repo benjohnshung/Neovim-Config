@@ -26,7 +26,8 @@ end
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	use("nvim-lua/plenary.nvim")
-	use("folke/tokyonight.nvim")
+	-- use("folke/tokyonight.nvim")
+	use("catppuccin/nvim")
 
 	use("christoomey/vim-tmux-navigator")
 	use("szw/vim-maximizer")
