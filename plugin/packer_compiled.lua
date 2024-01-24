@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/Users/benjohnshung/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
     url = "https://github.com/nvimtools/none-ls.nvim"
   },
+  nvim = {
+    loaded = true,
+    path = "/home/benjohn/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/benjohnshung/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
