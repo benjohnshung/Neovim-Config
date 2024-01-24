@@ -62,15 +62,15 @@ lspconfig["clangd"].setup({
 lspconfig["rust_analyzer"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
-	filetypes = { "rust" },
-	root_dir = require("lspconfig/util").root_pattern("Cargo.html"),
-	settings = {
-		["rust_analyzer"] = {
-			cargo = {
-				allFeatures = true,
-			},
-		},
-	},
+	-- filetypes = { "rust" },
+	-- root_dir = require("lspconfig/util").root_pattern("Cargo.html"),
+	-- settings = {
+	-- 	["rust_analyzer"] = {
+	-- 		cargo = {
+	-- 			allFeatures = true,
+	-- 		},
+	-- 	},
+	-- },
 })
 
 -- configure lua server (with special settings)

@@ -1,9 +1,10 @@
- vim.g.mapleader = " "
+vim.g.mapleader = " "
 
 local keymap = vim.keymap
 
 keymap.set("i", "jk", "<ESC>")
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+keymap.set("n", "/", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
