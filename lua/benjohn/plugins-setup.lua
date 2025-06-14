@@ -92,6 +92,7 @@ return packer.startup(function(use)
 	use("mfussenegger/nvim-dap")
 	use("rcarriga/nvim-dap-ui")
 	use("simrat39/rust-tools.nvim")
+	use("nvim-neotest/nvim-nio")
 
 	if packer_bootstrap then
 		require("packer").sync()
